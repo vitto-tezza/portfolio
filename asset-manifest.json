@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.360b002b.css",
-    "main.js": "/portfolio/static/js/main.74c71b5c.js",
+    "main.js": "/portfolio/static/js/main.01e71d89.js",
     "static/js/787.28cb0dcd.chunk.js": "/portfolio/static/js/787.28cb0dcd.chunk.js",
     "static/media/solidworks.png": "/portfolio/static/media/solidworks.073a4297af1cb772be63.png",
     "static/media/fondo-desktop.jpg": "/portfolio/static/media/fondo-desktop.fd34d7dcddfb2c7b7ee9.jpg",
@@ -17,11 +17,11 @@
     "static/media/js.png": "/portfolio/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/portfolio/index.html",
     "main.360b002b.css.map": "/portfolio/static/css/main.360b002b.css.map",
-    "main.74c71b5c.js.map": "/portfolio/static/js/main.74c71b5c.js.map",
+    "main.01e71d89.js.map": "/portfolio/static/js/main.01e71d89.js.map",
     "787.28cb0dcd.chunk.js.map": "/portfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.360b002b.css",
-    "static/js/main.74c71b5c.js"
+    "static/js/main.01e71d89.js"
   ]
 }
