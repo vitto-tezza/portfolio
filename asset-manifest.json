@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.360b002b.css",
+    "main.js": "/portfolio/static/js/main.690b07c3.js",
+    "static/js/787.28cb0dcd.chunk.js": "/portfolio/static/js/787.28cb0dcd.chunk.js",
+    "static/media/solidworks.png": "/portfolio/static/media/solidworks.073a4297af1cb772be63.png",
+    "static/media/fondo-desktop.jpg": "/portfolio/static/media/fondo-desktop.fd34d7dcddfb2c7b7ee9.jpg",
+    "static/media/fondo-mobile.jpg": "/portfolio/static/media/fondo-mobile.a39105bb923e6681a400.jpg",
+    "static/media/reactjs.png": "/portfolio/static/media/reactjs.86c8d9eba03e29814d2a.png",
+    "static/media/sass.png": "/portfolio/static/media/sass.c5da83bb9ff45b84e0e7.png",
+    "static/media/delcam.png": "/portfolio/static/media/delcam.e90c25474e9500fad423.png",
+    "static/media/responsive.png": "/portfolio/static/media/responsive.5cc9fe0789d39719b673.png",
+    "static/media/html5.png": "/portfolio/static/media/html5.2c6a71b184b518b01b9a.png",
+    "static/media/lightroom.png": "/portfolio/static/media/lightroom.290fcf5830ddba23b751.png",
+    "static/media/css3.png": "/portfolio/static/media/css3.463e319bad8e0edf1ef7.png",
+    "static/media/user-img.png": "/portfolio/static/media/user-img.f414aa60de28987c2111.png",
+    "static/media/js.png": "/portfolio/static/media/js.3dfb665e058d08c99f28.png",
+    "index.html": "/portfolio/index.html",
+    "main.360b002b.css.map": "/portfolio/static/css/main.360b002b.css.map",
+    "main.690b07c3.js.map": "/portfolio/static/js/main.690b07c3.js.map",
+    "787.28cb0dcd.chunk.js.map": "/portfolio/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.360b002b.css",
+    "static/js/main.690b07c3.js"
+  ]
+}
