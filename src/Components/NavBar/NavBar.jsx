@@ -23,7 +23,7 @@ const NavBar = () => {
           >
             <Link
               className="NavBar-Container_links--txt"
-              to={"/Home"}
+              to={"/portfolio"}
               onClick={toggleMenu}
             >
               HOME
