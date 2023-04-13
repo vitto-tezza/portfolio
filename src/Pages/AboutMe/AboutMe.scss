@@ -1,0 +1,39 @@
+.AboutMe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5vw;
+}
+.AboutMe-Container {
+  width: 80%;
+  background-color: rgb(245, 245, 245, 0.7);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 2.5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  &_Title {
+    font-size: 8vw;
+    padding-top: 3vw;
+    padding-bottom: 1vw;
+  }
+  &_txt {
+    text-align: center;
+    font-size: 5.5vw;
+    padding: 1.5vw;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .AboutMe {
+  }
+  .AboutMe-Container {
+    &_Title {
+      font-size: 4vw;
+    }
+    &_txt {
+      font-size: 2vw;
+    }
+  }
+}

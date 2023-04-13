@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Permanent+Marker&display=swap");
+
+body {
+  background-image: url(./Utils/Images/fondo-mobile.jpg);
+  background-size: cover;
+}
+.App {
+  font-family: "Permanent Marker", cursive;
+  padding-bottom: 5vh;
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    background-image: url(./Utils/Images/fondo-desktop.jpg);
+  }
+}

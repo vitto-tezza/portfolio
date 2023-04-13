@@ -1,0 +1,175 @@
+.Contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3vh;
+}
+
+.Contact-Container {
+  width: 75%;
+  margin: 0 auto;
+  width: 80%;
+  height: 100%;
+  background-color: rgb(245, 245, 245, 0.7);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 2.5%;
+  &__Title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 8vw;
+    font-weight: 500;
+    margin-top: 3vw;
+    margin-bottom: 6vw;
+    color: black;
+  }
+  &__Form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    padding-left: 10%;
+
+    &--Input {
+      width: 100%;
+      margin: 1.5vw 0;
+      border-radius: 1.5vw;
+      outline: none;
+      font-size: 3.8vw;
+      letter-spacing: 1px;
+      padding: 1.8vw;
+      border: 0.4vw solid #b3b3b3;
+      &::placeholder {
+        color: #b3b3b3;
+        font-weight: 300;
+      }
+    }
+    &--TextArea {
+      width: 100%;
+      margin: 1.5vw 0;
+      border-radius: 1.5vw;
+      outline: none;
+      font-size: 3.8vw;
+      letter-spacing: 1px;
+      padding: 1.8vw;
+      resize: none;
+      height: 24vw;
+      border: 0.4vw solid #b3b3b3;
+      &::placeholder {
+        color: #b3b3b3;
+        font-weight: 300;
+      }
+    }
+    &--Submit {
+      width: 50%;
+      margin: 2.5vw 0 0 auto;
+    }
+  }
+  &_numYmail {
+    padding-bottom: 3vw;
+    &--num {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 5vw;
+    }
+    &--mail {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 5vw;
+    }
+  }
+}
+
+.Contact-response {
+  width: 40%;
+  height: 12vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-12vw);
+}
+
+.Contact-response-text {
+  font-size: 10vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  background-color: #b3b3b3;
+  border-radius: 5vw;
+}
+
+@media screen and (min-width: 1200px) {
+  .Contact {
+    padding: 5vw 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .Contact-Container {
+      display: flex;
+      flex-direction: column;
+      &__Title {
+        font-size: 4vw;
+      }
+      &__Text {
+        width: 85%;
+        font-size: 1.24vw;
+        font-weight: 300;
+        margin: 1vw 0 1.5vw;
+      }
+      &__Form {
+        &--Input {
+          font-size: 0.8vw;
+          margin: 0.5vw 0;
+          padding: 0.8vw;
+          border-radius: 0.3vw;
+          border: 0.1vw solid #b3b3b3;
+        }
+        &--TextArea {
+          font-size: 1vw;
+          font-size: 0.8vw;
+          margin: 0.5vw 0;
+          height: 8vw;
+          padding: 0.8vw;
+          border-radius: 0.3vw;
+
+          border: 0.1vw solid #b3b3b3;
+        }
+        &--Submit {
+          margin: 1.5vw 0 0 60%;
+          width: 40%;
+          height: 10%;
+        }
+      }
+      &_numYmail {
+        padding-top: 5vw;
+        &--num {
+          justify-content: center;
+          font-size: 2vw;
+        }
+        &--mail {
+          justify-content: center;
+          font-size: 2vw;
+        }
+      }
+    }
+
+    .Contact-response {
+      width: 47%;
+      height: 3vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transform: translateY(-2.7vw);
+    }
+
+    .Contact-response-text {
+      font-size: 1.2vw;
+    }
+  }
+}
